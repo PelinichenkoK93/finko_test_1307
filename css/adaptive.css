@@ -1,0 +1,1518 @@
+@media screen and (max-width: 1350px) {
+	.menu {
+		margin-left: -10px;
+		margin-top: 30px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.phone-number {
+		font-size: 14px;
+		line-height: 7px;
+	}
+
+	.work-time {
+		font-size: 10px;
+		line-height: 7px;
+	}
+
+	.shape {
+		display: none;
+	}
+}
+@media(max-width: 1359px) {
+	.house-examples {
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.example-4 {
+		margin-top: 0;
+	}
+
+	.example-2,
+	.example-3,
+	.example-4,
+	.example-5,
+	.example-6 {
+		margin-left: 0;
+		width: 417px;
+	}
+
+	.example-1 {
+		width: 417px;
+	}
+
+	.filter {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media(max-width: 1359px) and (min-width: 992px) {
+	.first-worker {
+		width: 150px;
+		height: 240px;
+	}
+
+	.third-section .three-subcontainers {
+		display: block;
+		text-align: center;
+	}
+
+	.third-section .three-subcontainers h3 {
+		width: 100%;
+	}
+
+	.third-section .three-subcontainers .low-energy-info {
+		width: auto;
+		padding-left: 80px;
+		margin-right: 100px;
+	}
+
+	.third-section .three-subcontainers .column-subcontainers {
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 40px;
+	}
+
+	.house-img {
+		width: 330px;
+		height: 330px;
+	}
+
+	.rev-images {
+		max-width: 300px;
+	}
+
+	.left {
+		left: 180px;
+	}
+
+	.right {
+		left: 239px;
+	}
+
+	.stage-text {
+		width: 370px;
+	}
+
+	.time,
+	.time-block {
+		margin-left: 49px;
+	}
+
+	.contacts-title,
+	.all-contacts {
+		margin-left: 50px;
+	}
+
+	.company-title,
+	.company1 {
+		margin-left: 20px;
+	}
+
+	.purchase-title,
+	.purchases {
+		margin-left: 55px;
+	}
+
+	.fin-quality {
+		margin-left: 20px;
+	}
+
+	.mailing {
+		margin-left: 74px;
+	}
+}
+
+@media(max-width: 1131px) and (min-width: 992px) {
+	.projects-and-prices {
+		width: 104px;
+	}
+
+	.workers {
+		display: block;
+	}
+
+	.sort3 {
+		margin-left: 10px;
+	}
+
+	.workers .subcontainer {
+		margin-bottom: 40px;
+		justify-content: center;
+	}
+
+	.menu li {
+		margin-left: 10px;
+	}
+
+	.menu li li {
+		margin-left: 0;
+	}
+
+	.company-info {
+		width: 95px;
+	}
+
+	.galary {
+		width: 121px;
+	}
+
+	.phones {
+		margin-left: 20px;
+	}
+
+	.logo-like {
+		margin-left: 15px;
+	}
+
+	.technology {
+		width: 100px;
+	}
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.project {
+		font-size: 10px;
+	}
+
+	.first-section {
+		height: 200px !important;
+		padding-left: 100px;
+	}
+
+	.title {
+		font-size: 18px;
+		width: 240px;
+	}
+
+	.second {
+		width: 300px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	.Staff {
+		margin-top: 30px;
+		font-size: 18px;
+	}
+
+	.quality {
+		font-size: 10px;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.burger {
+		margin-top: 39px;
+		margin-left: 21px;
+		width: 25px;
+		height: 20px;
+		cursor: pointer;
+		background-image: url(../img/burger.png);
+		background-repeat: no-repeat;
+		background-size: 25px 20px;
+		transition: .3s all linear;
+	}
+
+	.active {
+		background-image: url(../img/active.png);
+		background-repeat: no-repeat;
+		background-size: 25px 20px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.social {
+		display: none;
+	}
+
+	.other-contacts {
+		margin-top: 7px;
+		margin-bottom: 28px;
+	}
+
+	.phones {
+		margin-left: 150px;
+		margin-top: 40px;
+	}
+
+	.shape {
+		left: 723px;
+	}
+
+	.all-menu {
+		display: none;
+	}
+
+	.menu-for-768px {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+		background-color: white;
+		text-decoration: none;
+	}
+
+	.title768 {
+		font-size: 18px;
+		font-weight: bold;
+		list-style-type: none;
+		margin-top: 33px;
+		margin-left: 20px;
+	}
+
+	.link768 a {
+		color: rgba(0, 0, 0, 0.75);
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	.submenu768 {
+		margin-top: 18px;
+		width: 143px;
+	}
+
+	.link768 {
+		margin-top: 23px;
+	}
+
+	.text {
+		margin-left: 22.07px;
+		padding-top: 30px;
+	}
+
+	.first-worker {
+		width: 85px;
+		height: 130px;
+	}
+
+	.subcontainer {
+		max-width: 323px;
+
+		flex-direction: column;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.workers {
+		flex-direction: column;
+	}
+
+	.name {
+		position: absolute;
+		top: 0;
+		left: 105px;
+	}
+
+	.about {
+		position: absolute;
+		top: 42px;
+		left: 105px;
+		width: 209px;
+	}
+
+	.subcontainer:last-child {
+		margin-left: 60px;
+	}
+
+	.info-about {
+		margin-left: 0px;
+	}
+
+	.about-worker {
+		margin-left: 0px;
+	}
+
+	.twos {
+		margin-top: 55px;
+	}
+
+	.demonstraition-img,
+	.column-subcontainers {
+		display: none;
+	}
+
+	.materials {
+		font-size: 18px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.low-energy-info {
+		margin-left: 0px;
+		width: 417px;
+	}
+
+	.fifth-section {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+
+	.low-energy {
+		position: relative;
+		padding-left: 367.74px;
+		background-image: url(../img/adaptive.jpg);
+		background-repeat: no-repeat;
+		background-position: 10% 50%;
+		background-size: 260.9px 276.78px;
+	}
+
+	.title-name {
+		margin-left: 0px;
+	}
+
+	.left1 {
+		left: 634px;
+		top: 0px;
+	}
+
+	.right1 {
+		left: 685.06px;
+		top: 0px;
+	}
+
+	.finnkoti {
+		width: 261.64px;
+	}
+
+	.finnkotilite {
+		width: 261.64px;
+		padding-left: 75px;
+	}
+
+	.sort,
+	.sort1,
+	.sort2,
+	.submit-filter,
+	.choose {
+		display: none;
+	}
+
+	.adaptive-button {
+		display: block;
+		margin-top: 19px;
+		margin-left: 20px;
+	}
+
+	.filter {
+		margin-left: 20px;
+	}
+
+	.parametrs {
+		width: 716px;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	.sort3 {
+		margin-left: 20px;
+		width: 175px;
+	}
+
+	.house-examples {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.house-photo {
+		width: 354px;
+		height: 252px;
+	}
+
+	.example-1,
+	.example-2,
+	.example-3,
+	.example-4,
+	.example-5,
+	.example-6 {
+		width: 354px;
+		margin-top: 20px;
+	}
+
+	.example-3,
+	.example-5 {
+		margin-left: 0px;
+	}
+
+	.example-4,
+	.example-2,
+	.example-6 {
+		margin-left: 10px;
+	}
+
+	.info-about-house {
+		width: 320px;
+	}
+
+	.house-name {
+		margin-left: 10px;
+		margin-top: 12px;
+	}
+
+	.price {
+		margin-left: 62px;
+	}
+
+	.extra-info {
+		margin-left: 10px;
+	}
+
+	.floors {
+		margin-left: 30px;
+	}
+
+	.numbers {
+		margin-left: 40px;
+	}
+
+	.house-img {
+		width: 321.42px;
+		height: 223px;
+		margin-left: 37.05px;
+	}
+
+	.line {
+		top: 0px;
+	}
+
+	.test-info {
+		margin-left: 20px;
+	}
+
+	.answer {
+		margin-top: 31px;
+		width: 356.46px;
+	}
+
+	.test,
+	.pass-test {
+		margin-top: 18px;
+	}
+
+	.reviews,
+	.reviews-subcontainer {
+		margin-left: 20px;
+	}
+
+	.reviews-subcontainer {
+		width: 728px;
+		height: auto;
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	.sixth-section {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+
+	.reviews-img {
+		width: 354px;
+		height: 248px;
+	}
+
+	.reviews-text {
+		padding-top: 13px;
+		padding-left: 20px;
+	}
+
+	.review {
+		width: 337px;
+		font-size: 14px;
+	}
+
+	.more {
+		margin-top: 62px;
+	}
+
+	.quote-mark {
+		left: 272px;
+		top: 141px;
+	}
+
+	.left {
+		left: 241px;
+		top: 150px;
+	}
+
+	.right {
+		left: 294px;
+		top: 150px;
+	}
+
+	.example {
+		display: none;
+	}
+
+	.stage-description {
+		margin-left: 65px;
+	}
+
+	.stages-of-work {
+		margin-left: 20px;
+	}
+
+	.stages {
+		position: relative;
+		flex-direction: column;
+	}
+
+	.first {
+		width: 50px;
+		height: 18px;
+		position: absolute;
+		left: 517px;
+		top: -122px;
+	}
+
+	.seconder {
+		position: absolute;
+		left: 584px;
+		top: -150px;
+		width: 28px;
+		height: 18px;
+	}
+
+	.third,
+	.fourth,
+	.fifth {
+		margin-top: 28px;
+		width: 28px;
+		height: 18px;
+		position: absolute;
+		top: -150px;
+	}
+
+	.order-item.active {
+		background-image: none;
+	}
+
+	.seventh-section {
+		display: flex;
+		justify-content: center;
+	}
+
+	.third {
+		left: 631px;
+	}
+
+	.fourth {
+		left: 679px;
+	}
+
+	.fifth {
+		left: 727px;
+	}
+
+	.one-stage {
+		padding-left: 20px;
+	}
+
+	.stage-title {
+		margin-top: 10px;
+	}
+
+	.stage-text {
+		width: 366px;
+	}
+
+	.contact-info {
+		flex-wrap: wrap;
+	}
+
+	.fin-quality {
+		margin-left: 20px;
+	}
+
+	.footer-column {
+
+		margin-left: 14px;
+		text-align: left;
+	}
+
+	.company-title,
+	.company1,
+	.purchase1 {
+		margin-left: 0px;
+	}
+
+	.purchase-title,
+	.purchases {
+		margin-left: 45px;
+	}
+
+	.time,
+	.time-block {
+		margin-left: 36px;
+	}
+
+	.contacts-title,
+	.all-contacts {
+		margin-left: 25px;
+	}
+
+	.contacts {
+		width: 100px;
+	}
+
+	.mailing {
+		margin-left: 10px;
+	}
+
+	.footcont {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.email {
+		margin-left: 18px;
+		height: 18px;
+		margin-top: 34px;
+		width: 250px;
+	}
+
+	.email-input {
+		width: 164px;
+	}
+
+	.flexrow {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contact-images {
+		margin-left: 138px;
+		margin-top: 37px;
+	}
+
+	.reserved {
+		text-align: left;
+		margin-left: 20px;
+	}
+
+	.zero-one {
+		top: -10px;
+		left: 363px;
+	}
+
+	.three-subcontainers {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.test-section {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.burger_active {
+		background-image: url(../img/active.png);
+		background-repeat: no-repeat;
+		background-size: 25px 20px;
+	}
+
+	.burger {
+		margin: 0;
+		position: absolute;
+		top: 19px;
+		left: 262px;
+		width: 25px;
+		height: 20px;
+		cursor: pointer;
+		background-image: url(../img/burger.png);
+		background-repeat: no-repeat;
+		background-size: 25px 20px;
+	}
+
+	.logo {
+		margin-left: -28.92px;
+		margin-top: -30px;
+	}
+
+	.phone-320 {
+		display: none;
+		position: absolute;
+		top: 17px;
+		left: 228px;
+	}
+
+	.phones {
+		display: none;
+	}
+
+	.text,
+	.first-section {
+		padding-top: 11px;
+		height: 230px;
+	}
+
+	.first-section {
+		background-image: url(../img/bcgr320.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.project {
+		font-size: 12px;
+	}
+
+	.title {
+		font-size: 14px;
+		width: 240px;
+	}
+
+	.second {
+		width: 300px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+
+	.Staff {
+		margin-top: 50px;
+	}
+
+	.quality {
+		width: 300.61px;
+	}
+
+	.workers {
+		flex-direction: column;
+	}
+
+	.more-info {
+		display: none;
+	}
+
+	.subcontainer {
+		margin-left: 10px;
+		flex-direction: column;
+	}
+
+	.subcontainer:last-child {
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.materials {
+		width: 300px;
+		margin-left: 10px;
+		margin-top: 50px;
+	}
+
+	.low-energy {
+		padding-left: 10px;
+		padding-top: 345px;
+		background-position: top left;
+	}
+
+	.title-name {
+		font-size: 18px;
+	}
+
+	.low-energy-info {
+		font-size: 14px;
+		width: 300px;
+	}
+
+	.left1,
+	.right1 {
+		display: none;
+	}
+
+	.column-subcontainers {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.three-subcontainers {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.material-img:last-child {
+		display: none;
+	}
+
+	.material-img-item {
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.catalog {
+		font-size: 24px;
+		margin-left: 10px;
+		margin-top: 50px;
+	}
+
+	.filter {
+		position: relative;
+		margin-left: 10px;
+	}
+
+	.finnkoti {
+		width: 150px;
+	}
+
+	.finnkotilite {
+		width: 150px;
+		padding-left: 30px;
+	}
+
+	.sort3 {
+		position: absolute;
+		top: 129px;
+		margin-left: 0px;
+		width: 300px;
+	}
+
+	.parametrs {
+		width: 300px;
+	}
+
+	.example-1 {
+		margin-left: -10px;
+		margin-top: 40px;
+		width: 300px;
+	}
+
+	.example-2,
+	.example-3,
+	.example-4,
+	.example-5,
+	.example-6 {
+		margin-left: -10px;
+		margin-top: 20px;
+		width: 300px;
+	}
+
+	.house-photo {
+		width: 300px;
+	}
+
+	.name1,
+	.price-number {
+		font-size: 14px;
+	}
+
+	.interval {
+		font-size: 12px;
+		margin-left: 35px;
+	}
+
+	.extra-info {
+		font-weight: normal;
+		font-size: 12px;
+	}
+
+	.info-about-house {
+		width: 260px;
+	}
+
+	.square {
+		margin-left: 8px;
+	}
+
+	.floors {
+		margin-left: 15px;
+	}
+
+	.numbers {
+		margin-left: 35px;
+	}
+
+	.adaptive-button {
+		margin-left: 10px;
+	}
+
+	.line {
+		top: -285px;
+		left: 120px;
+	}
+
+	.house-img {
+		width: 300px;
+		margin-left: 10px;
+	}
+
+	.test-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.test-info {
+		margin-left: 10px;
+	}
+
+	.answer {
+		width: 289px;
+		font-size: 24px;
+	}
+
+	.pass-test {
+		width: 300px;
+	}
+
+	.reviews-img {
+		width: 300px;
+		height: 210px;
+	}
+
+	.reviews-subcontainer {
+		flex-direction: column;
+		width: 300px;
+		height: 464px;
+		margin-left: 10px;
+	}
+
+	.quote-mark {
+		display: none;
+	}
+
+	.review {
+		width: 300px;
+	}
+
+	.more {
+		margin-top: 20px;
+	}
+
+	.reviews-text {
+		padding-left: 10px;
+	}
+
+	.left {
+		left: 182px;
+		top: 135px;
+	}
+
+	.right {
+		left: 241px;
+		top: 135px;
+	}
+
+	.stages-of-work {
+		margin-left: 10px;
+		margin-top: 50px;
+	}
+
+	.first {
+		left: 10px;
+		top: -72px;
+	}
+
+	.seconder {
+		left: 77px;
+		top: -100px;
+	}
+
+	.third {
+		left: 124px;
+		top: -100px;
+	}
+
+	.fourth {
+		left: 172px;
+		top: -100px;
+	}
+
+	.fifth {
+		left: 220px;
+		top: -100px;
+	}
+
+	.one-stage {
+		width: 300px;
+		height: 354px;
+		margin-left: 10px;
+		padding-top: 112px;
+		padding-left: 0px;
+	}
+
+	.stages {
+		flex-direction: column;
+	}
+
+	.stage-description {
+		margin-left: 10px;
+	}
+
+	.stage-title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 69px;
+	}
+
+	.zero-one {
+		top: -8px;
+		left: 15px;
+	}
+
+	.stage-text {
+		width: 300px;
+	}
+
+	.fin-quality {
+		width: 300px;
+		text-align: center;
+		margin: 0;
+	}
+
+	.time,
+	.time-block {
+		margin-left: 0;
+	}
+
+	.all-contacts,
+	.contacts-title {
+		margin-left: 15px;
+	}
+
+	.footcont {
+		flex-direction: column;
+		margin-left: 0px;
+		width: 300px;
+	}
+
+	.mail {
+		margin-left: 40px;
+	}
+
+	.email {
+		margin-left: 0px;
+	}
+
+	.flexrow {
+		flex-direction: column;
+	}
+
+	.contact-images {
+		margin-left: 0px;
+	}
+
+	.vk,
+	.inst,
+	.fb,
+	.tw {
+		display: none;
+	}
+
+	.social-icons {
+		display: block;
+
+	}
+
+	.reserved {
+		margin-left: 50px;
+	}
+
+	.soc-ico {
+		width: 250px;
+	}
+}
+
+@media(max-width: 767px) {
+	.contact-info {
+		display: block;
+	}
+
+	.contact-info h4 {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact-info div {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.fin-quality {
+		width: 100%;
+		text-align: center;
+	}
+
+	.all-contacts {
+		display: inline-block;
+		width: 145px !important;
+	}
+
+	.contacts .footer-column {
+		display: block;
+	}
+
+	.mailing .footer-column {
+		display: block;
+	}
+
+	.mailing .footcont {
+		justify-content: center;
+	}
+
+	.email {
+		width: 250px !important;
+		margin-left: 15px !important;
+	}
+
+	.mail {
+		width: auto !important;
+	}
+
+	.contact-images {
+		display: block;
+	}
+
+	.reserved {
+		text-align: center;
+	}
+
+	.reviews-subcontainer {
+		width: 354px;
+	}
+
+	.house-examples {
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	.example-4,
+	.example-2,
+	.example-6 {
+		margin-left: 0;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+	.adaptive-button {
+		width: 523px;
+		margin-right: 20px;
+	}
+
+	.parametrs {
+		width: 523px;
+	}
+
+	.reviews-subcontainer {
+		width: 300px;
+	}
+
+	.low-energy {
+		padding-left: 10px;
+		padding-top: 345px;
+		background-position: top left;
+		max-width: 298px;
+	}
+
+	.low-energy-info {
+		width: 100%;
+	}
+
+	.subcontainer:last-child {
+		margin-left: 80px;
+		margin-top: 20px;
+	}
+
+	.filter {
+		position: relative;
+	}
+
+	.sort3 {
+		position: absolute;
+		top: 129px;
+		margin-left: 0px;
+		width: 523px;
+	}
+
+	.house-examples {
+		margin-top: 56.5px;
+	}
+}
+
+@media (max-width: 575px) {
+	.materials-container {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.materials {
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.three-subcontainers {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.low-energy {
+		padding-left: 10px;
+		padding-top: 345px;
+		background-position: top left;
+		max-width: 298px;
+	}
+
+	.low-energy-info {
+		font-size: 14px;
+		width: 100%;
+	}
+
+	.radio-block {
+		display: flex;
+	}
+
+	.catalog {
+		margin-left: 10px;
+		font-size: 24px;
+		line-height: 150%;
+	}
+
+	.finnkoti {
+		width: 150px;
+	}
+
+	.parametrs {
+		width: 304px;
+	}
+
+	.subcontainer {
+		margin-left: 10px;
+	}
+
+	.subcontainer:last-child {
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.house-examples {
+		margin-top: 60px;
+	}
+
+	.quality {
+		width: 100%;
+	}
+
+
+	.house-img {
+		margin: auto;
+		width: 300px;
+	}
+
+	.answer {
+		width: 289px;
+		font-size: 24px;
+	}
+
+	.pass-test {
+		width: 300px;
+	}
+
+	.sort3 {
+		width: 304px;
+	}
+
+	.first-section {
+		padding-left: 20px;
+	}
+
+	.slick-dots {
+		left: 10px;
+	}
+
+	.second {
+		width: 250px;
+	}
+
+	.reviews-subcontainer {
+		width: 290px;
+	}
+
+	.stages-of-work {
+		margin-left: 10px;
+		margin-top: 50px;
+	}
+
+	.first {
+		left: 10px;
+		top: -72px;
+	}
+
+	.seconder {
+		left: 77px;
+		top: -100px;
+	}
+
+	.third {
+		left: 124px;
+		top: -100px;
+	}
+
+	.fourth {
+		left: 172px;
+		top: -100px;
+	}
+
+	.fifth {
+		left: 220px;
+		top: -100px;
+	}
+
+	.one-stage {
+		width: 300px;
+		height: 354px;
+		margin-left: 10px;
+		padding-top: 112px;
+		padding-left: 0px;
+	}
+
+	.stages {
+		flex-direction: column;
+	}
+
+	.stage-description {
+		margin-left: 10px;
+	}
+
+	.zero-one {
+		top: -8px;
+		left: 15px;
+	}
+
+	.stage-text {
+		width: 300px;
+	}
+
+
+	.reviews-img {
+		width: 290px;
+		height: 203px;
+	}
+
+	.reviews-subcontainer {
+		width: 290px;
+		height: 203px;
+	}
+
+	.reviews-text {
+		padding-top: 13px;
+		padding-left: 20px;
+		width: 290px;
+	}
+
+	.review {
+		width: 280px;
+		font-size: 14px;
+	}
+
+	.slick .more {
+		margin-top: 62px;
+	}
+
+	.quote-mark {
+		left: 240px;
+		top: 141px;
+	}
+
+	.left {
+		left: 169px;
+		top: 150px;
+	}
+
+	.right {
+		left: 230px;
+		top: 150px;
+	}
+
+
+
+}
+
+@media (max-width:393px) {
+	.example-1 {
+		margin-left: -10px;
+		margin-top: 40px;
+		width: 300px;
+	}
+
+	.example-2,
+	.example-3,
+	.example-4,
+	.example-5,
+	.example-6 {
+		margin-left: -10px;
+		margin-top: 20px;
+		width: 300px;
+	}
+
+	.house-photo {
+		width: 300px;
+		height: 219px;
+	}
+
+	.name1,
+	.price-number {
+		font-size: 14px;
+	}
+
+	.interval {
+		font-size: 12px;
+		margin-left: 35px;
+	}
+
+	.extra-info {
+		font-weight: normal;
+		font-size: 12px;
+	}
+
+	.info-about-house {
+		width: 260px;
+	}
+
+	.square {
+		margin-left: 8px;
+	}
+
+	.floors {
+		margin-left: 15px;
+	}
+
+	.numbers {
+		margin-left: 35px;
+	}
+}
+
+@media (max-width:361px) {
+	.phones {
+		margin-left: 100px;
+	}
+}
